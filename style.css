@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700; 1,900&display=intercambio');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: beige;
+}
+.container{
+    justify-content: center;
+    width: 100%;
+    align-content: center;
+    display: flex;
+    height: 300px;
+}
+
+.cuadro1{
+    
+    border-radius: 10px;
+    border: 2px solid #d3c314;
+    margin: 25px;
+    width: 20%;
+    background-color: #fff;
+     
+}
+.cuadro2{
+    border-radius: 10px;
+    border: 2px solid #10d6d9;
+    margin: 25px;
+    width: 20%;
+    background-color: #fff;
+}
+.cuadro3{
+    border-radius: 10px;
+    border: 2px solid #d51212;
+    margin: 25px;
+    width: 20%;
+    background-color: #fff;
+
+}
+.cuadro4{
+    border-radius: 10px;
+    border: 2px solid #25e614;
+    margin: 25px;
+    width: 20%;
+    background-color: #fff;
+}
+
+.cuadro1:hover {
+    
+    box-shadow: 1px 1px 1px 1px  rgb(222, 201, 20);
+    transform: none;
+}
+.cuadro2:hover{
+    box-shadow:1px 1px 1px 1px rgb(20, 151, 222);
+    transform: none;
+}
+.cuadro3:hover{
+    box-shadow: 1px 1px 1px 1px rgb(218, 23, 23);
+    transform: none;
+}
+.cuadro4:hover{
+    box-shadow: 1px 1px 1px 1px rgb(40, 222, 20);
+    transform: none;
+}
+
+img{
+    width: 40%;
+    padding-left: 38px;
+    padding-top: 35px;
+}
+.text-box_1{
+    margin: 25px;
+    justify-content: center;
+
+}
+.text-box_2{
+    justify-content: center;
+    margin: 15px;
+
+}
+.text-box_3{
+    justify-content: center;
+    margin: 25px;
+}
+.text-box_4{
+    justify-content: center;
+    margin: 25px;
+}
+
